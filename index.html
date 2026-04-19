@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Singh | Portfolio & Resume Parser</title>
+    <meta name="description" content="Portfolio of Abhishek Singh, B.Tech CSE (AI & ML) student featuring a built-in Resume Parser application.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-glow"></div>
+    
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">AS<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#parser">Resume Parser</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="role-badge">AI & ML Enthusiast</h2>
+                    <h1>Abhishek <span>Singh</span></h1>
+                    <p class="hero-subtitle">AI & ML Student | Web Developer</p>
+                    <p class="hero-description">
+                        I am a B.Tech CSE student specializing in AI & ML basics, passionate about building web applications and solving real-world problems.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-art">
+                    <div class="blob"></div>
+                    <div class="floating-icons">
+                        <i class="fab fa-python icon-1"></i>
+                        <i class="fas fa-brain icon-2"></i>
+                        <i class="fab fa-js icon-3"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About ME</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="about-content glass-card">
+                    <p>
+                        I'm currently pursuing my B.Tech in Computer Science with a specialization in Artificial Intelligence and Machine Learning at <strong>Manav Rachna University</strong> (2025–2029). 
+                    </p>
+                    <p>
+                        My journey in tech is driven by curiosity. I focus on bridging the gap between intelligent algorithms and user-centric web applications. I am actively learning full-stack development, the fundamentals of AI & ML, and mastering Python and C for efficient computing.
+                    </p>
+                    <div class="education">
+                        <div class="edu-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h3>B.Tech CSE (AI & ML)</h3>
+                                <p>Manav Rachna University, Faridabad | 2025 - 2029</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Technical Skills</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card glass-card">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-card glass-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-card glass-card">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-card glass-card">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-card glass-card">
+                        <i class="fas fa-terminal"></i>
+                        <span>C Language</span>
+                    </div>
+                    <div class="skill-card glass-card">
+                        <i class="fas fa-brain"></i>
+                        <span>AI & ML Basics</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Featured Projects</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card glass-card">
+                        <div class="project-header">
+                            <div class="project-tag">Featured Tool</div>
+                            <div class="project-links">
+                                <a href="https://github.com/abhishek-singh" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3>Resume Parser Web App</h3>
+                        <p>A smart tool that extracts structured data from raw resume text using regex patterns.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Extracts Name, Email, Phone, Skills</li>
+                            <li><i class="fas fa-check"></i> Shows results in clean cards</li>
+                            <li><i class="fas fa-check"></i> Generates structured JSON output</li>
+                        </ul>
+                        <div class="project-footer">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#parser" class="btn btn-sm btn-outline">Try Parser <i class="fas fa-arrow-right"></i></a>
+                            <a href="https://github.com/abhishek-singh/resume-parser" target="_blank" class="btn btn-sm btn-secondary">View Source <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass-card">
+                        <div class="project-header">
+                            <div class="project-tag">Management System</div>
+                            <div class="project-links">
+                                <a href="https://github.com/abhishek-singh" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3>Library Management System</h3>
+                        <p>A comprehensive system for managing book collections, user records, and borrowing transitions.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Manages books and user profiles</li>
+                            <li><i class="fas fa-check"></i> Issue & Return tracking system</li>
+                            <li><i class="fas fa-check"></i> Basic CRUD operations logic</li>
+                        </ul>
+                        <div class="project-footer">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Programming Fundamentals</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/abhishek-singh" target="_blank" class="btn btn-sm btn-outline">View Source <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Parser Section -->
+        <section id="parser" class="parser-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Resume Parser <span>Pro</span></h2>
+                    <p>Analyze your resume in real-time with our smart extraction engine.</p>
+                </div>
+
+                <!-- Dashboard Inside Parser -->
+                <div class="dashboard-grid glass-card">
+                    <div class="stat-item">
+                        <span class="stat-label">Resume Score</span>
+                        <h4 id="score-val">0<span>/100</span></h4>
+                        <div class="stat-bar"><div class="bar-fill" id="score-bar"></div></div>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Completeness</span>
+                        <h4 id="complete-val">0<span>%</span></h4>
+                        <div class="stat-bar"><div class="bar-fill" id="complete-bar"></div></div>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Confidence</span>
+                        <h4 id="conf-val">N/A</h4>
+                        <div class="badge" id="conf-badge">Waiting</div>
+                    </div>
+                </div>
+
+                <div class="parser-workspace">
+                    <div class="parser-input glass-card">
+                        <div class="card-header">
+                            <h3><i class="fas fa-file-alt"></i> Raw Resume Text</h3>
+                            <div class="header-actions">
+                                <button id="load-sample-btn" class="text-btn" onclick="loadSample()">Load Sample</button>
+                                <button id="clear-btn" class="text-btn">Clear All</button>
+                            </div>
+                        </div>
+                        <textarea id="resumeInput" placeholder="Paste resume content here... (e.g., Abhishek Singh, abhishek_singh25@mru.ac.in, +91 9876543210, Skills: Python, HTML, CSS...)"></textarea>
+                        <button id="analyze-btn" class="btn btn-primary btn-block">Analyze Resume <i class="fas fa-wand-magic-sparkles"></i></button>
+                    </div>
+
+                    <div class="parser-output glass-card">
+                        <div class="tabs">
+                            <button class="tab-btn active" data-tab="visual">Visual Cards</button>
+                            <button class="tab-btn" data-tab="json">JSON Output</button>
+                        </div>
+                        
+                        <div id="visual-tab" class="tab-content active">
+                            <div class="results-grid" id="results-display">
+                                <div class="empty-state">
+                                    <i class="fas fa-search"></i>
+                                    <p>No results yet. Paste a resume and click analyze.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="json-tab" class="tab-content">
+                            <pre id="json-output">{ "status": "waiting" }</pre>
+                            <button id="copy-json" class="btn btn-sm">Copy JSON</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Get In Touch</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="contact-grid">
+                    <a href="mailto:abhishek_singh25@mru.ac.in" class="contact-card glass-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>abhishek_singh25@mru.ac.in</p>
+                    </a>
+                    <a href="https://linkedin.com/in/abhishek-singh" target="_blank" class="contact-card glass-card">
+                        <i class="fab fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <p>linkedin.com/in/abhishek-singh</p>
+                    </a>
+                    <a href="https://github.com/abhishek-singh" target="_blank" class="contact-card glass-card">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <p>github.com/abhishek-singh</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <div class="container">
+            <p>Developed by <strong>Abhishek Singh</strong></p>
+            <p class="university">B.Tech CSE (AI & ML) | Manav Rachna University | Class of 2029</p>
+            <p class="university"><a href="mailto:abhishek_singh25@mru.ac.in" style="color: var(--text-secondary); text-decoration: none;">abhishek_singh25@mru.ac.in</a></p>
+            <div class="footer-links">
+                <p>&copy; 2026 All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
